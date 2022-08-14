@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "earthheal-86445",
+  "private_key_id": "61f1aae975d7645aed3cc7bb10801fe7ab1ff3bc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC5t/WWddpnfl1c\neXWFLd9lISCPIusnFRFP2nCeiRD4zEXkTZwsOFfnopsaucjy4tm9akvmncYJ+zt+\nE5vJuZJwk+D1LweBbPGT+FtfMUMlc9TfgJWqzAZpg27xJmtIEqeGj/ApE0Pevr2U\npXtJKHvS4y45w7ujnbP8y7Sl9Es3zloEefO/TTFQagVYRJBVg4eJoEpW8pCjUfoF\nwbD1QGMuCionO0rvEvgxAfdDomfF+p6wGBTzcGiZgnoGVT5tlcbhmuiWWJuGMD8f\nStQVP2TpM74v81cjrbejPM3j9vMleJA2YQA75YSC7Cyufzl4zrv0nJq4A0BU9lgN\naUL5ExPLAgMBAAECggEAUD2KhskBpaCDvu4dV/7DW+LNufo4xmiEU8+Jw/1tj0lW\n0zazCKoJVOO9BvWJPGPF9uBDze6R/4MEJ8taDnS2sBw8YELDB+jlkWyHMeBLZhWf\nPjfEsog3JwRp/Rf/1yJ0Lh/ngB+6PbWEnIJI+4lZwnp0YPHQEveSqeDrep5Ll167\n+3pS3XnXThtq0KsSFNeBxexny0Vj0GLatp7LXj1kgdg8eq6qDoqaTwPktQajjPgn\nWydVVrl5Cww8IjIOhU6WKsXer/AA3C4FE13M/mGxVJ689N7CvA64hPgJvmuvcXDU\nnNgE1+0KBs+GuIEPn8/R5AqaGotT97tz271ObTY9aQKBgQDuaWsG+OEvv0e3qiqJ\nRULcU33ycduhmX6xCUJF/2Lklc3lGvhdnoWDbBj2WrBF10MMLkuedplgRmMCtU7c\nO5cF6CzP9IhQt1x4HFZTK26ukWpW5ELAZRfr97UGO65/qoMOu8Y4ctGR6H6WhDUc\nn83Yd2I2dUbPFfSvKVm+3q2q2QKBgQDHa2Q25j+yv4MiEfOK2aYW6tbXEXvSQih+\n1/xS2jFjWh8lUb13Yv/Oz9IguvzEwU+4VzyNk+s1psf5jpny1Y37N7aL6AiCybz/\nDsEzpua5o9o5OxomgubHjf9by1S+WPnaoEAFUsu4PGo38b14T9tUnsnNjiEmWHUj\nsDRdlp4lQwKBgQCDiFuI/DRYwGJT3SkclL6/iby5zsFKlcHE8IPE1JJ95Hw0wz11\ngSjOCgx3li8cSRfvl3cW1P3nlM25R8hbTvESTDa1AIdYaOE2TwP9XL/yxb1ydPqy\n5NNe10njR3gNbUhjD4vbxtUCd8+nQQeAZFYP8EWaH/fR9p4JKXofCQGteQKBgQCF\nGPMpBSIMjm/aZHrU+JE3CIRdxOiMm+VlS4i4T7LY6cSR5u166lNr2B8aA1NDivZH\nRco/gDNjeq5LrNapUclSm4u18ycDC9ydq15duA6UZnz257B7dbDMDcUaoiosZTxV\no9E2/FzF2WTXc/wOedYcs2JjVHJhonaEXE2HDUj9+wKBgQCiKTwrjLYUipdzvdth\ni7rQCryOruxQwTDrsE3smJIlcF3IFDuoNW0coNrKZe0nCOKfDIgK2tPiZGPKj7Yv\n7UgNuSezkPMbyt/oigDcfk19MdmHubCEW5/L1VGAtQdyt1KzHGAun6i2MXs/VVs/\n/TATxU98t4CVTFchVK338KYdqg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8b4ly@earthheal-86445.iam.gserviceaccount.com",
+  "client_id": "113422780196548956337",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8b4ly%40earthheal-86445.iam.gserviceaccount.com"
+}
