@@ -237,3 +237,93 @@ delete() got an unexpected keyword argument 'project_id'
  * Running on http://127.0.0.1:5001
  * Running on http://11.14.20.151:5001
 2022-08-14 21:46:52,719 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-08-16 11:11:44,276 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 11:11:44,277 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 11:14:55,819 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 11:14:55,821 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 11:16:49,420 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 11:16:49,421 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 11:19:12,665 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 11:19:12,666 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 11:23:33,409 DEBUG google.auth._default Thread-5 : Checking None for explicit credentials as part of auth process...
+2022-08-16 11:23:33,412 DEBUG google.auth._default Thread-5 : Checking Cloud SDK credentials as part of auth process...
+2022-08-16 11:23:33,415 DEBUG google.auth._default Thread-5 : Cloud SDK credentials not found on disk; not using them
+2022-08-16 11:23:33,460 DEBUG google.auth.transport._http_client Thread-5 : Making request: GET http://169.254.169.254
+2022-08-16 11:23:33,478 WARNING google.auth.compute_engine._metadata Thread-5 : Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2022-08-16 11:23:33,480 DEBUG google.auth.transport._http_client Thread-5 : Making request: GET http://169.254.169.254
+2022-08-16 11:23:33,481 WARNING google.auth.compute_engine._metadata Thread-5 : Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2022-08-16 11:23:33,481 DEBUG google.auth.transport._http_client Thread-5 : Making request: GET http://169.254.169.254
+2022-08-16 11:23:33,501 WARNING google.auth.compute_engine._metadata Thread-5 : Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2022-08-16 11:23:33,502 WARNING google.auth._default Thread-5 : Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2022-08-16 11:38:28,928 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 11:38:28,931 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 11:39:05,541 DEBUG google.auth._default Thread-5 : Checking C:\home\work\personal\PythonMongo\eartheal-be\service-account-key.json for explicit credentials as part of auth process...
+2022-08-16 11:39:05,554 DEBUG google.auth._default Thread-5 : Checking C:\home\work\personal\PythonMongo\eartheal-be\service-account-key.json for explicit credentials as part of auth process...
+2022-08-16 11:39:06,371 DEBUG urllib3.util.retry Thread-5 : Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2022-08-16 11:39:06,385 DEBUG google.auth.transport.requests Thread-5 : Making request: POST https://oauth2.googleapis.com/token
+2022-08-16 11:39:06,437 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-16 11:39:06,663 DEBUG urllib3.connectionpool Thread-5 : https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-16 11:39:06,675 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-08-16 11:39:07,176 DEBUG urllib3.connectionpool Thread-5 : https://storage.googleapis.com:443 "GET /storage/v1/b/test_pkt_test?projection=noAcl&prettyPrint=false HTTP/1.1" 403 342
+2022-08-16 12:27:19,604 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 12:27:19,605 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 12:27:55,436 DEBUG google.auth._default Thread-5 : Checking C:\home\work\personal\PythonMongo\eartheal-be\service-account-key.json for explicit credentials as part of auth process...
+2022-08-16 12:27:55,455 DEBUG google.auth._default Thread-5 : Checking C:\home\work\personal\PythonMongo\eartheal-be\service-account-key.json for explicit credentials as part of auth process...
+2022-08-16 12:27:56,332 DEBUG urllib3.util.retry Thread-5 : Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2022-08-16 12:27:56,347 DEBUG google.auth.transport.requests Thread-5 : Making request: POST https://oauth2.googleapis.com/token
+2022-08-16 12:27:56,389 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-16 12:27:56,547 DEBUG urllib3.connectionpool Thread-5 : https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-16 12:27:56,566 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-08-16 12:27:57,025 DEBUG urllib3.connectionpool Thread-5 : https://storage.googleapis.com:443 "GET /storage/v1/b/test_pkt_test?projection=noAcl&prettyPrint=false HTTP/1.1" 200 586
+2022-08-16 12:28:01,188 DEBUG urllib3.connectionpool Thread-5 : https://storage.googleapis.com:443 "POST /upload/storage/v1/b/test_pkt_test/o?uploadType=multipart HTTP/1.1" 200 723
+2022-08-16 12:35:47,416 ERROR src.com.home.work Thread-5 : Actual error was:
+'Project' object has no attribute 'id'
+2022-08-16 12:35:47,418 INFO werkzeug Thread-5 : 127.0.0.1 - - [16/Aug/2022 12:35:47] "[35m[1mPOST /project HTTP/1.1[0m" 500 -
+2022-08-16 12:38:11,884 DEBUG google.auth._default Thread-75 : Checking C:\home\work\personal\PythonMongo\eartheal-be\service-account-key.json for explicit credentials as part of auth process...
+2022-08-16 12:38:11,893 DEBUG google.auth._default Thread-75 : Checking C:\home\work\personal\PythonMongo\eartheal-be\service-account-key.json for explicit credentials as part of auth process...
+2022-08-16 12:38:12,427 DEBUG urllib3.util.retry Thread-75 : Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2022-08-16 12:38:12,431 DEBUG google.auth.transport.requests Thread-75 : Making request: POST https://oauth2.googleapis.com/token
+2022-08-16 12:38:12,438 DEBUG urllib3.connectionpool Thread-75 : Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-16 12:38:15,571 DEBUG urllib3.connectionpool Thread-75 : https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-16 12:38:15,579 DEBUG urllib3.connectionpool Thread-75 : Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-08-16 12:38:16,036 DEBUG urllib3.connectionpool Thread-75 : https://storage.googleapis.com:443 "GET /storage/v1/b/test_pkt_test?projection=noAcl&prettyPrint=false HTTP/1.1" 200 586
+2022-08-16 12:38:21,032 DEBUG urllib3.connectionpool Thread-75 : https://storage.googleapis.com:443 "POST /upload/storage/v1/b/test_pkt_test/o?uploadType=multipart HTTP/1.1" 200 723
+2022-08-16 12:52:00,904 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 12:52:00,905 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 12:53:15,316 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 12:53:15,317 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 12:54:18,901 ERROR src.com.home.work Thread-5 : Actual error was:
+<FileStorage: 'AKS.png' ('image/png')> could not be converted to unicode
+2022-08-16 12:54:18,903 INFO werkzeug Thread-5 : 127.0.0.1 - - [16/Aug/2022 12:54:18] "[35m[1mPOST /project HTTP/1.1[0m" 500 -
+2022-08-16 12:56:49,101 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 12:56:49,102 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 12:57:20,073 DEBUG urllib3.connectionpool Thread-5 : https://storage.googleapis.com:443 "POST /upload/storage/v1/b/test_pkt_test/o?uploadType=multipart HTTP/1.1" 200 723
+2022-08-16 12:57:54,838 ERROR src.com.home.work Thread-5 : Actual error was:
+('Cannot convert to a Firestore Value', <FileStorage: 'AKS.png' ('image/png')>, 'Invalid type', <class 'werkzeug.datastructures.FileStorage'>)
+2022-08-16 12:57:54,845 INFO werkzeug Thread-5 : 127.0.0.1 - - [16/Aug/2022 12:57:54] "[35m[1mPOST /project HTTP/1.1[0m" 500 -
+2022-08-16 13:01:20,400 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 13:01:20,401 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 13:01:42,914 DEBUG urllib3.connectionpool Thread-5 : https://storage.googleapis.com:443 "POST /upload/storage/v1/b/test_pkt_test/o?uploadType=multipart HTTP/1.1" 200 723
+2022-08-16 13:01:57,220 DEBUG google.auth.transport.requests Thread-34 : Making request: POST https://oauth2.googleapis.com/token
+2022-08-16 13:01:57,227 DEBUG urllib3.connectionpool Thread-34 : Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-16 13:01:57,394 DEBUG urllib3.connectionpool Thread-34 : https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-16 13:02:05,315 INFO werkzeug Thread-5 : 127.0.0.1 - - [16/Aug/2022 13:02:05] "POST /project HTTP/1.1" 200 -
+2022-08-16 13:02:51,381 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-16 13:02:51,383 INFO werkzeug MainThread :  * Running on http://192.168.0.107:5001/ (Press CTRL+C to quit)
+2022-08-16 13:05:39,330 DEBUG urllib3.connectionpool Thread-5 : https://storage.googleapis.com:443 "POST /upload/storage/v1/b/test_pkt_test/o?uploadType=multipart HTTP/1.1" 200 723
+2022-08-16 13:05:39,477 DEBUG google.auth.transport.requests Thread-11 : Making request: POST https://oauth2.googleapis.com/token
+2022-08-16 13:05:39,504 DEBUG urllib3.connectionpool Thread-11 : Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-16 13:05:39,930 DEBUG urllib3.connectionpool Thread-11 : https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-16 13:05:45,025 INFO werkzeug Thread-5 : 127.0.0.1 - - [16/Aug/2022 13:05:45] "POST /project HTTP/1.1" 200 -
+2022-08-16 13:13:31,722 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Aug/2022 13:13:31] "GET /project/100 HTTP/1.1" 200 -

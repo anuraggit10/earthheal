@@ -1,5 +1,3 @@
-import uuid
-import flask
 from flask import request, jsonify
 from src.com.home.work import app, client, cross_origin, db
 from src.com.home.work.database.model.earthheal.Project import Project
@@ -22,8 +20,11 @@ def create():
         Ensure you pass a custom ID as part of json body in post request
         e.g. json={'id': '1', 'title': 'Write a blog post'}
     """
-    persist_object = Project(request.json)
-    return persist_object.add_record()
+    # uploaded_file = request.files.get('image_file')
+    persist_object = Project(request)
+    project_image = request.files.get('image_file')
+
+    return persist_object.add_record(project_image)
 
 
 @app.route('/project/<project_id>', methods=['GET'])
